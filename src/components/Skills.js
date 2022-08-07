@@ -31,12 +31,12 @@ const skills = () => {
       <img src={Node} alt="node" className="skills_icon" />
       <img src={Docker} alt="docker" className="skills_icon" />
       <img src={Linux} alt="linux" className="skills_icon" />
-      <img src={Postgresql} alt="postgresql" className="skills_icon" />
       <img src={Mysql} alt="mysql" className="skills_icon" />
-      <img src={C} alt="c" className="skills_icon" />
-      <img src={CPP} alt="c++" className="skills_icon" />
       <img src={Java} alt="java" className="skills_icon" />
       <img src={Python} alt="python" className="skills_icon" />
+      <img src={Postgresql} alt="postgresql" className="skills_icon" />
+      <img src={C} alt="c" className="skills_icon" />
+      <img src={CPP} alt="c++" className="skills_icon" />
     </div>
   );
 };
