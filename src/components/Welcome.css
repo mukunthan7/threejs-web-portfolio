@@ -58,6 +58,7 @@ span {
 }
 .about_line {
   font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 600;
   font-size: 1.6rem;
   width: 4rem;
   border-bottom: #525353 solid 4px;
