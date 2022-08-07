@@ -1,0 +1,30 @@
+.my_skills {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  text-align: justify;
+  color: #d9d9d8;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1rem;
+}
+.skills_line {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.6rem;
+  width: 4rem;
+  border-bottom: #525353 solid 4px;
+}
+.skills_icon {
+  margin: 1rem;
+}
+@media (max-width: 768px) {
+  .my_skills {
+    font-size: 1rem;
+  }
+  .skills_line {
+    font-size: 1.5rem;
+    width: 4rem;
+    border-bottom: #525353 solid 4px;
+  }
+}

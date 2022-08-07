@@ -1,0 +1,147 @@
+.about {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1rem;
+}
+.hello_me {
+  padding: 0.8rem;
+  background-color: rgb(48, 49, 53, 0.9);
+  color: #e6e6e6;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-bottom: 1rem;
+}
+.profile_dev {
+  display: flex;
+  flex-direction: column;
+}
+.profile_Name {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #e6e6e6;
+  margin: 0 auto;
+}
+span {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #e6e6e6;
+  margin: 0 auto;
+}
+.Profile_container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 0 auto;
+  border: #81e7d8 solid 5px;
+}
+.my_self {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  text-align: justify;
+  color: #d9d9d8;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.about_line {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.6rem;
+  width: 4rem;
+  border-bottom: #525353 solid 4px;
+}
+.Button_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Github {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 600;
+  width: 130px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 6px;
+  color: #1a212d;
+  background-color: #81e7d8;
+}
+.Github a {
+  text-decoration: none;
+  color: #1a212d;
+}
+.Project {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 600;
+  width: 100px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 6px;
+  color: #1a212d;
+  background-color: #81e7d8;
+}
+.Project a {
+  text-decoration: none;
+  color: #1a212d;
+}
+
+@media (max-width: 768px) {
+  .hello_me {
+    width: 90%;
+    font-size: 1rem;
+  }
+  .about {
+    max-width: 100%;
+  }
+  .profile_dev {
+    flex-direction: column;
+  }
+  .profile_Name {
+    font-size: 2rem;
+  }
+  span {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .Profile_container {
+    flex-direction: column;
+  }
+  .profile {
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: #81e7d8 solid 5px;
+  }
+  .my_self {
+    font-size: 1.1rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 600;
+  }
+  .about_line {
+    font-size: 1.5rem;
+    width: 4rem;
+    border-bottom: #525353 solid 4px;
+  }
+  .Button_container {
+    flex-direction: column;
+  }
+  .Github {
+    width: 100%;
+  }
+  .Project {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

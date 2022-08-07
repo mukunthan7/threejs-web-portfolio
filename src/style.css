@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500&display=swap");
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #212123;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgb(48, 49, 53, 0.9);
+}
+::-webkit-scrollbar-thumb {
+  background: #04969b;
+  border: rgb(48, 49, 53, 0.9) solid 2px;
+}
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgb(48, 49, 53, 0.9);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #04969b;
+    border: rgb(48, 49, 53) solid 2px;
+  }
+}

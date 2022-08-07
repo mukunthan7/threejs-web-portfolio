@@ -1,0 +1,30 @@
+.my_bio {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-align: justify;
+  color: #d9d9d8;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1rem;
+}
+.my_bio > ul > li {
+  margin: 0.5rem 0;
+}
+.bio_line {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.6rem;
+  width: 2.5rem;
+  border-bottom: #525353 solid 4px;
+}
+@media (max-width: 768px) {
+  .my_bio {
+    font-size: 1rem;
+  }
+  .bio_line {
+    font-size: 1.5rem;
+    width: 2.5rem;
+    border-bottom: #525353 solid 4px;
+  }
+}

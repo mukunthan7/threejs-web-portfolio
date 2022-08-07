@@ -1,0 +1,27 @@
+.my_love {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  text-align: justify;
+  color: #d9d9d8;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1rem;
+}
+.love_line {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.6rem;
+  width: 7.5rem;
+  border-bottom: #525353 solid 4px;
+}
+@media (max-width: 768px) {
+  .my_love {
+    font-size: 1rem;
+  }
+  .love_line {
+    font-size: 1.5rem;
+    width: 6.8rem;
+    border-bottom: #525353 solid 4px;
+  }
+}
