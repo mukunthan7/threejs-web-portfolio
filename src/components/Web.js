@@ -3,6 +3,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { FaWhatsapp } from "react-icons/fa";
 import "./Web.css";
 
 const Web = () => {
@@ -39,6 +41,22 @@ const Web = () => {
             <a href="https://www.instagram.com/mukunthan7_official/">
               <FaInstagram className="web_icon" />
               @Mukunthan7_official
+            </a>
+          </button>
+        </li>
+        <li>
+          <button>
+            <a href="mailto:mukunthanm079@gmail.com">
+              <SiGmail className="web_icon" />
+              @M.Mukunthan
+            </a>
+          </button>
+        </li>
+        <li>
+          <button>
+            <a href="https://wa.me/+919629175812">
+              <FaWhatsapp className="web_icon" />
+              @+91 9629175812
             </a>
           </button>
         </li>

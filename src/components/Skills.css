@@ -16,7 +16,7 @@
   border-bottom: #525353 solid 4px;
 }
 .skills_icon {
-  margin: 1rem;
+  margin: 0.6rem;
 }
 @media (max-width: 768px) {
   .my_skills {

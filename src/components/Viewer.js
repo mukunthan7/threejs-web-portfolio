@@ -14,9 +14,9 @@ export default function Viewer() {
         }}
         camera={{ position: [0, 20, 50], fov: 10 }}
       >
-        <ambientLight intensity={1} />
-        <directionalLight position={[0, 25, 50]} intensity={1} />
-        <Suspense id="Model">
+        <ambientLight intensity={0.2} />
+        <directionalLight position={[0, 25, 50]} intensity={0.5} />
+        <Suspense id="Model" fallback={null}>
           <Model smoooth={true} position={[0, -3, 0]} />
         </Suspense>
         <OrbitControls />
