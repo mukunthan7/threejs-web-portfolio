@@ -38,9 +38,9 @@ const Web = () => {
         </li>
         <li>
           <button>
-            <a href="https://www.instagram.com/mukunthan7_official/">
+            <a href="https://www.instagram.com/lonely__soul_official/">
               <FaInstagram className="web_icon" />
-              @Mukunthan7_official
+              @Mukunthan.M
             </a>
           </button>
         </li>
